@@ -5,12 +5,8 @@ struct Thing<'a> {
 
 fn main() {
     let mine = Thing { name: 'test' };
-    let other = vec![1, 2, 3];
+    let other = mine.name;
 
     // Say Hello
     println!("Hello, World!");
 }
-
-
-
-
