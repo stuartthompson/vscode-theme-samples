@@ -2,17 +2,11 @@
   "name": "test-document",
   "displayName": "Test JSON Document",
   "link": "https://link.com",
-  "nestedValues": {
-    "type": "git",
-    "url": "https://github.com/stuartthompson/statn-penta"
-  },
   "lists": ["ArrayLiterals"],
   "objects": [
     {
       "name": "testNest",
-      "value": {
-        "inception": "level"
-      }
+      "value": { "inception": "level" }
     }
   ]
 }
